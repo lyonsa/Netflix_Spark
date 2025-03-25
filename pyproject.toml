@@ -1,8 +1,8 @@
 [project]
-name = "python_template"
+name = "netflix_spark"
 version = "0.1.0"
 requires-python  = ">= 3.10"
-description = "Python Project Template"
+description = "Netflix Data Parsed with Spark"
 license = "MIT"
 readme = "README.md"
 authors = [
@@ -30,16 +30,16 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-homepage = "https://github.com/lyonsa/Python-Project-Template.git"
+homepage = "https://github.com/lyonsa/Netflix_Spark.git"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
 packages = [
-    "project_name",
+    "netflix_spark",
 ]
 
 [project.scripts]
-project_name = "hello_world:main"
+project_name = "spark:main"
 
 [tool.ruff]
 line-length = 100
