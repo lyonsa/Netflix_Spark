@@ -24,3 +24,7 @@ RUN python -m pip install --upgrade pip
 WORKDIR /opt/app
 
 COPY . .
+
+RUN pip install --no-cache-dir \
+    --report report.json \
+    .
