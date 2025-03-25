@@ -11,7 +11,7 @@ USER app
 WORKDIR /home/app
 
 RUN apt-get update -- yes && \
-    apt-get install --yes \
+    apt-get install --yes --no-install-recommends\
     sudo \
     ;
 
