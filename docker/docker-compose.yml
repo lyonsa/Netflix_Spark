@@ -3,8 +3,8 @@
 version: '3.4'
 
 services:
-  python_template:
-    image: python_template
+  netflix_spark:
+    image: netflix_spark
     build:
       context: .
       dockerfile: ./Dockerfile

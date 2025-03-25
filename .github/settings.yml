@@ -1,8 +1,8 @@
 ---
 
 repository:
-  name: python_template
-  description: Template for Python projects
+  name: netflix_spark
+  description: Spark project with Netflix data
   homepage: null
   topics: ''
   private: false
