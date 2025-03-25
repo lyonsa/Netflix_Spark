@@ -23,8 +23,6 @@ ENV PATH="$VIRTUALENV/bin:$PATH"
 
 ENV PYTHONUNBUFFERED=1
 
-RUN python -m pip install --upgrade pip 
-
 WORKDIR /opt/app
 
 RUN pip install --no-cache-dir \
